@@ -1,0 +1,51 @@
+/* GENERAL */
+
+body {
+    background-color:white;
+}
+.CV {
+    display:flex;
+    flex-direction: column;
+    width: 780px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(211, 236, 203);
+}
+.information_personnel {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+#Photo {
+    float: right;
+    height: 200px;
+    margin-top: -50px;
+
+}
+h1 {
+    font-style: oblique;
+    font-size: 30px;
+    margin: 1px;
+    text-align: center;
+}
+h2 {
+    margin: 0px;
+    color: rgb(102, 177, 247);
+}
+.date {
+    text-align: center;
+    font-weight: bold;
+}
+.Titre {
+    padding-left: 18px;
+}
+.Droit {
+    margin-right:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-self: flex-end;
+    width: 200px;
+    background-color: rgb(10, 151, 139);
+    margin-top: -650px;
+} 
