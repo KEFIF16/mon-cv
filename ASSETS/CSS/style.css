@@ -1,12 +1,13 @@
 /* GENERAL */
-
-body {
+   @media (max-width: 100%){}
+   @media (max-height: 100%){}
+   body {
     background-color:white;
 }
 .CV {
     display:flex;
     flex-direction: column;
-    width: 780px;
+    width: 100%;
     margin: auto;
     padding: 20px;
     background-color: rgb(211, 236, 203);
@@ -19,12 +20,11 @@ body {
 #Photo {
     float: right;
     height: 200px;
-    margin-top: -50px;
-
+    margin-top: auto;
 }
 h1 {
     font-style: oblique;
-    font-size: 30px;
+    font-size: 5vh;
     margin: 1px;
     text-align: center;
 }
@@ -45,7 +45,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-end; 
     align-self: flex-end;
-    width: 200px;
+    width: 20%;
     background-color: rgb(10, 151, 139);
     margin-top: -650px;
 } 
