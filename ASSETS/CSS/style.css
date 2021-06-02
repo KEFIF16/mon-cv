@@ -4,7 +4,7 @@
    body {
     background-color:white;
 }
-.CV {
+body {
     display:flex;
     flex-direction: column;
     width: 100%;
@@ -29,7 +29,6 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin: 0px;
     color: rgb(102, 177, 247);
 }
 .date {
@@ -40,12 +39,27 @@ h2 {
     padding-left: 18px;
 }
 .Droit {
-    margin-right:0px;
     display:flex;
     flex-direction: column;
     justify-content: flex-end; 
     align-self: flex-end;
-    width: 20%;
     background-color: rgb(10, 151, 139);
-    margin-top: -650px;
-} 
+    margin: 0px 0px 0px 1000px;
+    align-items: flex-end;
+}
+.Atouts {
+    margin-right: 20px;
+    text-align: start;
+}
+.Informatique {
+    margin-right: 20px;
+    text-align: start;
+}
+.Langues {
+    margin-right: 20px;
+    text-align: start;
+}
+.Loisirs {
+    margin-right: 20px;
+    text-align: start;
+}
