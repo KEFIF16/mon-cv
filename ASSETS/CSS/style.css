@@ -5,11 +5,9 @@
     background-color:white;
 }
 body {
-    display:flex;
-    flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 20px;
+
     background-color: rgb(211, 236, 203);
 }
 .information_personnel {
@@ -34,33 +32,50 @@ h2 {
 .date {
     text-align: center;
     font-weight: bold;
+    display: inline-block;
 }
 .Titre {
     padding-left: 18px;
 }
-.Droit {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-    align-self: flex-end;
-    background-color: rgb(10, 151, 139);
-    margin: 0px 0px -800px 1000px;
-    align-items: flex-end;
 
-}
 .Atouts {
-    margin-right: 20px;
+    padding-right: 70px;
     text-align: start;
+    
 }
 .Informatique {
-    margin-right: 20px;
+    /* padding-right: 20px; */
     text-align: start;
 }
 .Langues {
-    margin-right: 20px;
+    padding-right: 50px;
     text-align: start;
 }
 .Loisirs {
-    margin-right: 20px;
+    padding-left: 50px;
     text-align: start;
+}
+
+.Split {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Gauche {
+   flex-basis: 60%; 
+   display: inline-block;
+   text-align: center;
+   margin-left: 50px;
+}
+
+.Droit {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(10, 151, 139);
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    margin-right: -90px;
+    height: 750px;
 }
