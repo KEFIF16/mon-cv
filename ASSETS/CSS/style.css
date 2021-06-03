@@ -44,8 +44,9 @@ h2 {
     justify-content: flex-end; 
     align-self: flex-end;
     background-color: rgb(10, 151, 139);
-    margin: 0px 0px 0px 1000px;
+    margin: 0px 0px -800px 1000px;
     align-items: flex-end;
+
 }
 .Atouts {
     margin-right: 20px;
