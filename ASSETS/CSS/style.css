@@ -19,11 +19,12 @@ body {
     float: right;
     height: 200px;
     margin-top: auto;
+    padding-right: 10px;
 }
 h1 {
     font-style: oblique;
     font-size: 5vh;
-    margin: 1px;
+    margin: 1px 0px 0px -20px;
     text-align: center;
 }
 h2 {
@@ -44,7 +45,6 @@ h2 {
     
 }
 .Informatique {
-    /* padding-right: 20px; */
     text-align: start;
 }
 .Langues {
@@ -78,4 +78,7 @@ h2 {
     flex-wrap: nowrap;
     margin-right: -90px;
     height: 750px;
+}
+.A {
+    padding-left: 10px;;
 }
